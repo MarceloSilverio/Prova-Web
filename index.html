@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Cadastro Tarefas</title>
+        <link rel="stylesheet" href="css.css"/>
+    </head>
+        <body>
+        <div id="corpo">
+          
+            <div>
+            <div id="titulo">
+                <h1>Eventos:</h1>
+            </div>
+            <div id="tarefas">
+                <div>
+                    <label>Id:</label>
+                    <input id="id" type="text" />
+                </div>
+                <div>
+                    <label>Data:</label>
+                    <input id="data" type="date" />
+                </div>
+                <div>
+                    <label>Horario Inicio:</label>
+                    <input id="horain" type="time" />
+                </div>
+                <div>
+                    <label>Horario Termino:</label>
+                    <input id="horaterm" type="time" />
+                </div>
+                <div>
+                    <label>Evento:</label>
+                    <input id="evento" type="text" />
+                </div>
+                <div>
+                    <label>Descrição:</label>
+                    <input id="descricao" type="text" />
+                </div>
+                <div>
+                    <label>Status:</label>
+                    <input id="status" type="text" />
+                </div>
+            </div>
+                <button id="add">Adicionar Evento</button>
+                <button id="change">Alterar Evento</button>
+                <button id="changestats">Alterar Status</button>
+                <button id="remove">Remover Evento</button>
+
+                
+            </div>
+            <div id="result"></div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <script src="./js.js"></script>
+        </div>
+    </body>
+</html>
